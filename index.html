@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZedX3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7fafc;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Hero Section -->
+    <header class="bg-blue-60 text- dark p-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-3xl font-bold">ZedX3</div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#services" class="hover:text-blue-200 transition-colors">Services</a></li>
+                    <li><a href="#about" class="hover:text-blue-200 transition-colors">About Us</a></li>
+                    <li><a href="#contact" class="hover:text-blue-200 transition-colors">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Content -->
+        <section class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-24 text-center">
+            <div class="container mx-auto px-4">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-4">Innovate. Connect. Grow.</h1>
+                <p class="text-lg sm:text-xl md:text-2xl max-w-2xl mx-auto mb-8 opacity-90">
+                    We provide cutting-edge software solutions and results-driven marketing strategies to propel your business forward.
+                </p>
+                <a href="#contact" class="bg-white text-blue-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition-all transform hover:scale-105">
+                    Get Started
+                </a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-20 bg-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-gray-900">Our Core Services</h2>
+
+                <div class="grid md:grid-cols-2 gap-12">
+                    <!-- Software Services -->
+                    <div class="p-8 bg-gray-100 rounded-2xl shadow-lg transition-all transform hover:scale-105">
+                        <svg class="w-16 h-16 mx-auto mb-6 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 16H9v-2h2v2zm-1-4h-2V7h2v7zm4 0h-2V7h2v7zm2-4h-2V7h2v7z"></path>
+                        </svg>
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-900">Software Development</h3>
+                        <p class="text-gray-600">
+                            From custom web applications to enterprise-level software, we build robust, scalable, and secure solutions tailored to your unique business needs. We use modern frameworks and technologies to ensure peak performance.
+                        </p>
+                    </div>
+
+                    <!-- Marketing Services -->
+                    <div class="p-8 bg-gray-100 rounded-2xl shadow-lg transition-all transform hover:scale-105">
+                        <svg class="w-16 h-16 mx-auto mb-6 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.88 12.5c-.32.32-.47.66-.47 1.02s.15.7.47 1.02c.32.32.7.47 1.02.47s.7-.15 1.02-.47l4.5-4.5c.32-.32.47-.66.47-1.02s-.15-.7-.47-1.02L13.14 7c-.32-.32-.66-.47-1.02-.47s-.7.15-1.02.47L7 12.14c-.32.32-.47.66-.47 1.02s.15.7.47 1.02l2.5 2.5z"></path>
+                        </svg>
+                        <h3 class="text-2xl font-semibold mb-4 text-gray-900">Digital Marketing</h3>
+                        <p class="text-gray-600">
+                            Our team develops and executes comprehensive marketing campaigns that drive traffic, generate leads, and boost your brand's visibility. We specialize in SEO, content marketing, and social media strategy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-gray-900">About Us</h2>
+                <p class="text-gray-600 max-w-4xl mx-auto mb-8 leading-relaxed">
+                    At Quantum Innovations, we believe in the power of technology and strategic communication. Our mission is to empower businesses of all sizes with the tools they need to succeed in a digital-first world. Our team of experts is passionate about creating elegant code and captivating campaigns that deliver measurable results.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-blue-600 text-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-6">Let's Build Something Great Together</h2>
+                <p class="text-lg mb-8 opacity-90">
+                    Ready to transform your business? Get in touch with us to discuss your project.
+                </p>
+                <div class="bg-white text-gray-800 p-8 rounded-2xl shadow-lg max-w-md mx-auto">
+                    <form>
+                        <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <textarea placeholder="Your Message" rows="4" class="w-full p-3 mb-4 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-colors">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 ZedX3 Innovations. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
